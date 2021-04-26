@@ -26,7 +26,7 @@ export class RegisterComponent implements OnInit {
   }
 
   onRegisterSubmit(){
-    alert(this.user.name)
+    alert(this.user.name +" "+this.user.email+" ")
   }
 
 }
