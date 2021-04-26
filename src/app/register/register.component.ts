@@ -10,6 +10,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 export class RegisterComponent implements OnInit {
   user: RegisterModel = new RegisterModel();
   registerForm: FormGroup;
+  hide = true;
 
   constructor(private formBuilder: FormBuilder) { }
 

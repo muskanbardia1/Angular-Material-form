@@ -6,17 +6,18 @@ import {
 } from '@angular/material/toolbar';
 import { MatButtonModule} from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
-
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   imports:[
     MatToolbarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,MatIconModule
   ],
   exports: [
     MatToolbarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule
 
   ]
 })
